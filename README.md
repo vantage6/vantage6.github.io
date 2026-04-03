@@ -1,6 +1,6 @@
 # Important: Unauthorized access to our vantage6 image registry
 
-## Update: April 3rd, 2026
+## Update: April 3rd, 2026 - 12:00
  
 In addition to the findings yesterday, we wish to highlight the following images:
 
