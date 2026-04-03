@@ -1,5 +1,18 @@
 # Important: Unauthorized access to our vantage6 image registry
 
+## Update: April 3rd, 2026
+ 
+In addition to the findings yesterday, we wish to highlight the following images:
+infrastructure/vpn-client:4.14
+infrastructure/vpn-configurator:4.14
+infrastructure/ssh-tunnel:4.14
+infrastructure/squid:4.14
+These images have been compromised on March 24, 2026. Importantly, these images are run by vantage6 nodes if VPN / SSH tunnel / whitelisting features are configured by the node. Unlike the algorithm images, these images have internet access and therefore we expect that malware would be downloaded if these images have been run on a vantage6 node.
+ 
+To scan your system, you may use this script, kindly provided by Johan van Soest and colleagues: test_docker_image.sh. It lists all docker images on your system and searches if the malicious pattern is found in them.
+ 
+For reference, the malware found is described here: VirusTotal - File - 912186b9420585ebf21e52f37390f3cee88adda85d2a815b44ab01bb40dd580f. Note that it is tagged by several vendors as a coin miner, but we do not know if that annotation is correct, and it is probably not possible to determine this with certainty.
+
 ## 2 April 2026 - 10:15
 Dear community members,
 
