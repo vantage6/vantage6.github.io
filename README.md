@@ -3,10 +3,12 @@
 ## Update: April 3rd, 2026
  
 In addition to the findings yesterday, we wish to highlight the following images:
-infrastructure/vpn-client:4.14
-infrastructure/vpn-configurator:4.14
-infrastructure/ssh-tunnel:4.14
-infrastructure/squid:4.14
+
+- infrastructure/vpn-client:4.14
+- infrastructure/vpn-configurator:4.14
+- infrastructure/ssh-tunnel:4.14
+- infrastructure/squid:4.14
+
 These images have been compromised on March 24, 2026. Importantly, these images are run by vantage6 nodes if VPN / SSH tunnel / whitelisting features are configured by the node. Unlike the algorithm images, these images have internet access and therefore we expect that malware would be downloaded if these images have been run on a vantage6 node.
  
 To scan your system, you may use this script, kindly provided by Johan van Soest and colleagues: [test_docker_image.sh](https://gist.github.com/jvsoest/d5d7f600ff1ba0d03556a29392c788b9). It lists all docker images on your system and searches if the malicious pattern is found in them.
