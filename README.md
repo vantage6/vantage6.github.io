@@ -27,7 +27,7 @@ The most important images that are affected are:
 - infrastructure/server:cotopaxi - affected since 24/3, containing version 4.14
 - version 5 infrastructure images tagged with Uluru
 
-A complete of overview of all affected images can be found below this message. Also, the malicious cotopaxi server image does not start (see issue [BUG] Server 4.14.0 (cotopaxi): /wrapper.sh permission denied on container start · Issue #2578 · vantage6/vantage6).
+A complete of overview of all affected images can be found below this message. Also, the malicious cotopaxi server image does not start (see issue [[BUG] Server 4.14.0 (cotopaxi): /wrapper.sh permission denied on container start · Issue #2578 · vantage6/vantage6](https://github.com/vantage6/vantage6/issues/2578)).
 
 We expect that there is only an impact for those of you who have run the version 5 beta images. However, we encourage you to investigate if any of the affected images might have run in your projects. Note that also many algorithm images have been affected, but since algorithms in vantage6 lack an internet connection, we do not expect that the malware download succeeded. However, note that the image with the downloader may still be present.
 
