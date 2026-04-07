@@ -1,11 +1,11 @@
 # Important: Unauthorized access to our vantage6 image registry
 
-- [Update 2: April 7th, 2026 - XX:XX](#update-2-april-7th-2026---xxxx)
+- [Update 2: April 7th, 2026 - 11:48](#update-2-april-7th-2026---1148)
 - [Update: April 3rd, 2026 - 12:00](#update-april-3rd-2026---1200)
 - [2 April 2026 - 10:15](#2-april-2026---1015)
 - [Affected Images Table](#affected-images-table)
 
-## Update 2: April 7th, 2026 - XX:XX
+## Update 2: April 7th, 2026 - 11:48
 
 For the affected infrastructure support images that are mentioned in the [April 3rd, 2026](#Update:%20April%203rd,%202026%20-%2012:00) update, we have not observed evidence of malware execution during our investigation so far. The investigation has not yet been concluded but in the past couple of days we have not found any additional evidence that additional images or services were affected by the breach. 
 
