@@ -1,9 +1,18 @@
 # Important: Unauthorized access to our vantage6 image registry
 
+- [Update 3: April 22nd, 2026 - 07:56](#update-3:-april-22nd-2026---08:30)
 - [Update 2: April 7th, 2026 - 11:48](#update-2-april-7th-2026---1148)
 - [Update: April 3rd, 2026 - 12:00](#update-april-3rd-2026---1200)
 - [2 April 2026 - 10:15](#2-april-2026---1015)
 - [Affected Images Table](#affected-images-table)
+
+## Update 3: April 22nd, 2026 - 08:30
+
+We have not identified any sites where images containing malware ran in production environments with access to sensitive data, and we have more certainty that no additional images have been affected. We hope to draw our investigation to a close soon.
+ 
+Independent parties have reported that the malware's purpose is to download a coin miner, as was suspected before. Based on our current analysis, it is observed that the malware does not leave traces on the system after it has been stopped and deleted. This suggests it has no secondary objectives. However, note that we are not completely certain about the malware's exact functionality.
+ 
+Looking to the future, the vantage6 developer community has discussed how to replace the harbor service. It has been decided that the Github Container Registry connected to the vantage6 Github subscription will be used to publish infrastructure images. The harbor service itself will be discontinued. We are working hard to make safe vantage6 images available to you as soon as possible.
 
 ## Update 2: April 7th, 2026 - 11:48
 
