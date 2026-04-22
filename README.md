@@ -1,6 +1,6 @@
 # Important: Unauthorized access to our vantage6 image registry
 
-- [Update 3: April 22nd, 2026 - 07:56](#update-3-april-22nd-2026---08:30)
+- [Update 3: April 22nd, 2026 - 07:56](#update-3-april-22nd-2026---0830)
 - [Update 2: April 7th, 2026 - 11:48](#update-2-april-7th-2026---1148)
 - [Update: April 3rd, 2026 - 12:00](#update-april-3rd-2026---1200)
 - [2 April 2026 - 10:15](#2-april-2026---1015)
