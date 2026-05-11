@@ -1,10 +1,18 @@
 # Important: Unauthorized access to our vantage6 image registry
 
+- [Update 4: May 11th, 2026 - 12:00](#update-4-may-11-2026---1200)
 - [Update 3: April 22nd, 2026 - 07:56](#update-3-april-22nd-2026---0830)
 - [Update 2: April 7th, 2026 - 11:48](#update-2-april-7th-2026---1148)
 - [Update: April 3rd, 2026 - 12:00](#update-april-3rd-2026---1200)
 - [2 April 2026 - 10:15](#2-april-2026---1015)
 - [Affected Images Table](#affected-images-table)
+
+## Update 4: May 11, 2026 - 12:00
+We are releasing version 4.15 today, which no longer relies on the harbor service but uses the images built in the Github Container Registry. This allows everyone to use vantage6 again without having to build their own images.
+
+Note that this website and the community server & algorithm store are still offline. We are working to get these back online.
+
+Enjoy working with vantage6 once again!
 
 ## Update 3: April 22nd, 2026 - 08:30
 
